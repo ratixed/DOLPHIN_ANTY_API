@@ -12,8 +12,8 @@ headers = {
 }
 
 json_data = {
-    'username': '<your_login>',
-    'password': '<your_password',
+    'username': '<your_login>',  # Replace <your_login> to your login for Dolphin Anty Browser
+    'password': '<your_password',  # Replace <your_password> to your login for Dolphin Anty Browser
 }
 
 response = requests.post('http://142.132.182.77:81/auth/login', headers=headers, json=json_data, verify=False)
